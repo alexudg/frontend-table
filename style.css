@@ -59,11 +59,26 @@ article{
     width: 100%;
     padding: 5px;
 }
+.col {
+    display: table-column;
+}
+#col-1 {
+    background-color: silver;
+}
+#col-2 {
+    background-color: gray;
+}
+#col-3 {
+    background-color: lightblue;
+}
 .tr {
     border: 1px solid blue;
     display: table-row;
     width: 100%;  
     padding: 5px;  
+}
+#tr-1 {
+    background: lightgreen;
 }
 .td{
     border: 1px solid green;
